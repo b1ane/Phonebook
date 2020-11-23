@@ -5,6 +5,7 @@
 //  Created by Blane Zewdie on 11/23/20.
 //
 
+#pragma once
 #ifndef GYMCONTACT_H
 #define GYMCONTACT_H
 

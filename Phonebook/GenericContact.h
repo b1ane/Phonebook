@@ -5,13 +5,13 @@
 //  Created by Blane Zewdie on 11/23/20.
 //
 
+#pragma once
 #ifndef GENCONTACT_H
 #define GENCONTACT_H
 #include <iostream>
 #include <string>
 using namespace std;
 
-//Use virtual qualifier for methods and destructor if needed
 class GenericContact
 {
 private:
@@ -28,7 +28,7 @@ public:
     void setType(const string &_type);
     void setRegion(const string &_region);
     void setPhoneNumber(const string &_phoneNumber);
-    void print() const;
+    virtual void print() const = 0;
     bool operator!=(const GenericContact &contact);
     ~GenericContact();
 };

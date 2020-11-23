@@ -11,6 +11,7 @@
 		37C67663256C3C6E00ECDB19 /* Phonebook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67662256C3C6E00ECDB19 /* Phonebook.cpp */; };
 		37C67667256C3D1300ECDB19 /* GymContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67666256C3D1300ECDB19 /* GymContact.cpp */; };
 		37C6766A256C3D3600ECDB19 /* TrainerContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67669256C3D3600ECDB19 /* TrainerContact.cpp */; };
+		37C67671256C482600ECDB19 /* GenericContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67670256C482600ECDB19 /* GenericContact.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		37C6766C256C3D5C00ECDB19 /* GenericContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericContact.h; sourceTree = "<group>"; };
 		37C6766D256C3D8100ECDB19 /* Phonebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phonebook.h; sourceTree = "<group>"; };
 		37C6766E256C3D9D00ECDB19 /* TrainerContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainerContact.h; sourceTree = "<group>"; };
+		37C67670256C482600ECDB19 /* GenericContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenericContact.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				37C6766D256C3D8100ECDB19 /* Phonebook.h */,
 				37C67662256C3C6E00ECDB19 /* Phonebook.cpp */,
 				37C6766C256C3D5C00ECDB19 /* GenericContact.h */,
+				37C67670256C482600ECDB19 /* GenericContact.cpp */,
 			);
 			path = Phonebook;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C67671256C482600ECDB19 /* GenericContact.cpp in Sources */,
 				37C6766A256C3D3600ECDB19 /* TrainerContact.cpp in Sources */,
 				37C67667256C3D1300ECDB19 /* GymContact.cpp in Sources */,
 				37C6765B256C3BC600ECDB19 /* main.cpp in Sources */,

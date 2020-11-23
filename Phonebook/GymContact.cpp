@@ -5,6 +5,7 @@
 //  Created by Blane Zewdie on 11/23/20.
 //
 
+#include "GenericContact.h"
 #include "GymContact.h"
 #include <string.h>
 
