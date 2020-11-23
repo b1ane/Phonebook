@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		37C6765B256C3BC600ECDB19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C6765A256C3BC600ECDB19 /* main.cpp */; };
+		37C67663256C3C6E00ECDB19 /* Phonebook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67662256C3C6E00ECDB19 /* Phonebook.cpp */; };
+		37C67667256C3D1300ECDB19 /* GymContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67666256C3D1300ECDB19 /* GymContact.cpp */; };
+		37C6766A256C3D3600ECDB19 /* TrainerContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C67669256C3D3600ECDB19 /* TrainerContact.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		37C67657256C3BC600ECDB19 /* Phonebook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Phonebook; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C6765A256C3BC600ECDB19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		37C67662256C3C6E00ECDB19 /* Phonebook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Phonebook.cpp; sourceTree = "<group>"; };
+		37C67665256C3CDE00ECDB19 /* GymContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GymContact.h; sourceTree = "<group>"; };
+		37C67666256C3D1300ECDB19 /* GymContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GymContact.cpp; sourceTree = "<group>"; };
+		37C67669256C3D3600ECDB19 /* TrainerContact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrainerContact.cpp; sourceTree = "<group>"; };
+		37C6766C256C3D5C00ECDB19 /* GenericContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericContact.h; sourceTree = "<group>"; };
+		37C6766D256C3D8100ECDB19 /* Phonebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phonebook.h; sourceTree = "<group>"; };
+		37C6766E256C3D9D00ECDB19 /* TrainerContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainerContact.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				37C6765A256C3BC600ECDB19 /* main.cpp */,
+				37C67665256C3CDE00ECDB19 /* GymContact.h */,
+				37C67666256C3D1300ECDB19 /* GymContact.cpp */,
+				37C6766E256C3D9D00ECDB19 /* TrainerContact.h */,
+				37C67669256C3D3600ECDB19 /* TrainerContact.cpp */,
+				37C6766D256C3D8100ECDB19 /* Phonebook.h */,
+				37C67662256C3C6E00ECDB19 /* Phonebook.cpp */,
+				37C6766C256C3D5C00ECDB19 /* GenericContact.h */,
 			);
 			path = Phonebook;
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C6766A256C3D3600ECDB19 /* TrainerContact.cpp in Sources */,
+				37C67667256C3D1300ECDB19 /* GymContact.cpp in Sources */,
 				37C6765B256C3BC600ECDB19 /* main.cpp in Sources */,
+				37C67663256C3C6E00ECDB19 /* Phonebook.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
